@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: University of Oslo        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: GSH-LINKEN, Moltke Moes vei 39, Oslo  <a href="https://link.mazemap.com/vidKnRq4">(maze map link)</a>   # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: GSH-LINKEN, Moltke Moes vei 39, Oslo   # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: no      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: en     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "59.939149013024604"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -136,6 +136,8 @@ address.
   <strong>Where:</strong>
   {{page.address}}.
   Get directions with
+  <a href="https://link.mazemap.com/vidKnRq4">maze map</a>
+  or
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
@@ -368,6 +370,8 @@ of code below the Schedule `<h2>` header below with
 This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
 Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
 {% endif %}
+
+If you want to learn more about git and FAIR principles after this course we recommend joining the <a href="https://coderefinery.github.io/2023-09-19-workshop/">CodeRefinery workshop (Sep 19-21 and 26-28)</a>.
 
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
