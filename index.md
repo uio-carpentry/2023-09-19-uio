@@ -359,6 +359,7 @@ of code below the Schedule `<h2>` header below with
 {% endcomment %}
 
 <h2 id="schedule">Schedule</h2>
+Note that the timing of breaks may be adapted to better fit the course flow.
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
